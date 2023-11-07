@@ -1,5 +1,5 @@
 # odin-recipes
-This project will serve as the capstone for the html section of The Odin Projec
+This project will serve as the capstone for the html section of The Odin Project
 foundations module. In this project, I will be building a small website with 
 html that will display a list of recipes to the visitors. This list will be
 composed of hyperlinks that link to a page dedicates to the recipes they
