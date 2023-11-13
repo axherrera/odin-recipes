@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "VikingNormal";
+    src: url('./fonts/VikingNormal.otf');
+    src: url('.fonts/VikingNormal.otf') format('embedded-opentype'),
+}
+
+.image {
+    height: auto;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: bisque;
+}
+
+.background{
+    background-color: rgb(183, 120, 67);
+    color: antiquewhite;
+    font-family: "VikingNormal";
+}
