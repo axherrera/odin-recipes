@@ -4,6 +4,10 @@
     src: url('.fonts/VikingNormal.otf') format('embedded-opentype'),
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .image {
     height: auto;
     width: 500px;
@@ -28,3 +32,38 @@ h3 {
     color: antiquewhite;
     font-family: "VikingNormal";
 }
+
+
+.title-ul {
+    width: 800px;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 50px auto
+}
+
+.title-ul li {
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.links-list a{
+  background-color: antiquewhite;
+  color: rgb(77, 41, 13);
+  text-decoration: none;
+  padding: 30px 60px;
+  display: inline-block;
+}
+
+.links-list a:hover {
+    background-color: rgb(77, 41, 13);
+    color: antiquewhite;
+  }
+
+ p {
+    line-height: 1.5; 
+ }
+
+ul, ol {
+    line-height: 1.7;
+ }
